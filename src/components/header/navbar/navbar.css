@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  overflow:hidden
+}
+
+.navbar-links a {
+  all: unset;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-logo {
+  font-size: 20px;
+  font-weight: 900;
+  margin-right: 14rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+}
+.navbar-user-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.nav-button:hover {
+  cursor: pointer;
+}
