@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
 import "./collection-cards.css";
 
-const Cards = ({ id, image, title, sub_title, price }) => {i
+const Cards = ({ id, image, title, sub_title, price }) => {
   return (
     <NavLink to={`/heroine/${id}`}
       state={{id, image, title,sub_title,price}}
